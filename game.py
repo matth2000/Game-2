@@ -381,7 +381,7 @@ def main():
     # Main game loop
     win = False
     while win == False:
-        if items[''] in rooms["Reception"]["items"] and items['id'] in rooms["Reception"]["items"] and items['money'] in rooms["Reception"]["items"] and items['biscuits'] in rooms["Reception"]["items"] and items['laptop'] in rooms["Reception"]["items"] and items['handbook'] in rooms["Reception"]["items"]:
+        if items['pen'] in rooms["Reception"]["items"] and items['id'] in rooms["Reception"]["items"] and items['money'] in rooms["Reception"]["items"] and items['biscuits'] in rooms["Reception"]["items"] and items['laptop'] in rooms["Reception"]["items"] and items['handbook'] in rooms["Reception"]["items"]:
             print('Congratulations, You have won!')
             win = True
         # Display game status (room description, inventory etc.)
